@@ -1,71 +1,146 @@
-:root{
-    --white:#fff;
-    --black:#000;
-    --gray:#7A7A7A;
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray: #7a7a7a;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* body{
     background: linear-gradient(0deg, #0A0C10 0%, rgba(10, 12, 16, 0.00) 100%);
 } */
 
-.container{
-    max-width: 1134px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+.container {
+  max-width: 1134px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 /* header Mirahmad*/
 
 /*  end header*/
 
-
-
-
 /* main */
-
-
-
 
 /* section info Jo'rabek*/
 
 /* endsection info */
 
-
 /* section product Jasur */
+.product {
+  background-color: black;
+}
+.product .container {
+  display: flex;
+  flex-direction: column;
+}
+.product__title {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 52.8px */
+  letter-spacing: -1.44px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+.product__text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  margin-bottom: 58px;
+}
+.product__content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product__content-block {
+  width: 254px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product__content-block__img {
+  position: relative;
+}
+.shadow {
+  position: absolute;
+}
+.product__planet-name {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 22px */
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
 
-
+}
+.product__planet-name span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+.product__planet-text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+.product__planet-Price {
+  display: flex;
+  justify-content: space-between;
+  color: #7a7a7a;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
+.product__planet-Price span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+}
 
 /* endsection product Jasur */
 
-
-
 /* section about Arslonbek */
-
-
 
 /* endsection about Arslonbek */
 
-
-
 /* section blog Xurshid */
-
-
 
 /* endsection blog Xurshid */
 
-
-
-
 /* section partners Abdulloh */
-
-
 
 /* endsection partners Abdulloh */
