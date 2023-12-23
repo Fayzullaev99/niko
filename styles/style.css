@@ -1,0 +1,71 @@
+:root{
+    --white:#fff;
+    --black:#000;
+    --gray:#7A7A7A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background: linear-gradient(0deg, #0A0C10 0%, rgba(10, 12, 16, 0.00) 100%);
+} */
+
+.container{
+    max-width: 1134px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* header Mirahmad*/
+
+/*  end header*/
+
+
+
+
+/* main */
+
+
+
+
+/* section info Jo'rabek*/
+
+/* endsection info */
+
+
+/* section product Jasur */
+
+
+
+/* endsection product Jasur */
+
+
+
+/* section about Arslonbek */
+
+
+
+/* endsection about Arslonbek */
+
+
+
+/* section blog Xurshid */
+
+
+
+/* endsection blog Xurshid */
+
+
+
+
+/* section partners Abdulloh */
+
+
+
+/* endsection partners Abdulloh */
